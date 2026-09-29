@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Doctor's Appointment</title>
+    </head>
+    <body>
+        <h1>My Doctors Appointment</h1>
+            <p>Fill in the form below to book your appointment.  </p>
+        <hr>
+        <form>
+            <fieldset>
+                <legend> Personal Details</legend>
+                <label> Your Name</label><br>
+                <input type="text" id="name" placeholder="Enter your full name"> <br><br>
+                <label> Patient Id</label><br>
+                <input type="password" id="pid" placeholder="your secret Id"> <br> <br>
+                <label>Date of Birth</label><br>
+                <input type="date" id="dob"> <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> Your visit</legend>
+                <label> Choose your Doctor</label><br>
+                <Select id="doctor">
+                    <option value=" ">-- Select a doctor --</option>
+                    <option value="dr-ray">Dr. Ray - General</option>
+                    <option value="dr. lee">Dr.lee - Teeth</option>
+                </Select><br><br>
+                <label>Why are you visiting</label><br>
+                <input type="radio" name="reason" value="fever">
+                Fever<br>
+                <input type="radio". name="reason" value="cold"> Cold<br>
+                <input type="radio" name="reason" value="checkup">
+                Checkup<br>
+                <input type="radio" name="reason" value="tooth"> Tooth
+                Pain<br><br>
+                <label>Any notes for the doctor?</label><br>
+                <textarea id="notes" rows="3" cols="35" placeholder="e.g. I have had a sore throat for 2 days."></textarea><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preferred Visit day</legend>
+                <input type="chekcbox" value="mon"> Monday><br>
+                <input type="checkbox" value="Wed"> Wednesday<br>
+                <Input type="checkbox" value="fri"> Friday<br>
+            </fieldset>
+        </form>
+    </body>
+</html>
